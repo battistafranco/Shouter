@@ -1,0 +1,8 @@
+C:\Users\RO32542761\Desktop\Programacion\Personal\MoraviaShouter\RegisterUser\bin\Debug\RegisterUser.exe.config
+C:\Users\RO32542761\Desktop\Programacion\Personal\MoraviaShouter\RegisterUser\bin\Debug\RegisterUser.exe
+C:\Users\RO32542761\Desktop\Programacion\Personal\MoraviaShouter\RegisterUser\bin\Debug\RegisterUser.pdb
+C:\Users\RO32542761\Desktop\Programacion\Personal\MoraviaShouter\RegisterUser\bin\Debug\MongoDB.Bson.dll
+C:\Users\RO32542761\Desktop\Programacion\Personal\MoraviaShouter\RegisterUser\bin\Debug\MongoDB.Driver.dll
+C:\Users\RO32542761\Desktop\Programacion\Personal\MoraviaShouter\RegisterUser\obj\Debug\RegisterUser.csprojResolveAssemblyReference.cache
+C:\Users\RO32542761\Desktop\Programacion\Personal\MoraviaShouter\RegisterUser\obj\Debug\RegisterUser.exe
+C:\Users\RO32542761\Desktop\Programacion\Personal\MoraviaShouter\RegisterUser\obj\Debug\RegisterUser.pdb

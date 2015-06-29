@@ -1,0 +1,80 @@
+﻿.body-login {
+    background-image: url(../Images/fondo.png);
+}
+
+.body-comun {
+    background-image: url(../Images/purty_wood.png);
+}
+
+.navbar-default {
+    background-color: transparent;
+}
+
+#page-wrapper {
+    background-image: url(../Images/concrete_seamless.png);
+    border-bottom: 1px solid #E7E7E7;
+}
+
+.div-login {
+    margin-top: 200px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+@media(min-width: 768px) {
+    .div-login-form {
+        border-left: 1px solid #342d24;
+    }
+}
+
+.panel-contenido {
+    margin-top: 20px;
+}
+
+.panel-abm {
+    margin-top: 10px;
+}
+
+.pagination-container {
+    text-align: center;
+}
+
+    .pagination-container ul {
+        margin-top: 0;
+    }
+
+/* Page wrapper */
+@media(min-width: 768px) {
+    #page-wrapper {
+        position: inherit;
+        padding: 0 30px;
+        border-left: 1px solid #E7E7E7;
+    }
+}
+
+#page-wrapper {
+    padding: 0 15px;
+    min-height: 568px;
+    background-color: #FFF;
+}
+
+.ui-helper-hidden-accessible {
+    display: none;
+}
+
+.ExportSection
+{
+    margin:10px 0;
+    float:left;
+   
+}
+.ExportSection a
+{
+    text-decoration:none;
+    padding:0 5px 0 0;
+   
+}
+
+.LogOutButton {
+    float: right;
+}

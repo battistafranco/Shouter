@@ -1,0 +1,33 @@
+﻿table {
+    /*Previenen que las tablas sobrepasen el ancho de su contenedor al achicar la pantalla*/
+    table-layout: fixed;
+    word-wrap: break-word;
+}
+
+.acciones-fila-tabla {
+    text-align: right;
+}
+
+.acciones-top-tabla a, input, button[type=button] {
+    margin-bottom: 5px;
+}
+
+div table[class~='table'] {
+    margin-bottom: 0;
+}
+
+th a {
+    display: block;
+}
+
+    th a:hover, th a:visited, th a:link, th a:active {
+        text-decoration: none;
+    }
+
+.tr-dentro-stock {
+    background-color: #A9F5A9;
+}
+
+.tr-fuera-stock {
+    background-color: #FF9592;
+}

@@ -1,0 +1,24 @@
+﻿.button-login {
+    width: 40%;
+    float: right;
+    color: #B49664;
+    font-family: 'Lato-Bold';
+    font-size: 14px;
+}
+
+/* Lista de ítems de textbox con autocomplete */
+.textbox-autocomplete {
+    padding: 1px;
+    max-height: 1000px;
+    max-width: 400px;
+    background-color: #ebd6b9;
+    list-style-type: none;
+    font-family: 'Lato-Regular';
+    font-weight: bold;
+    
+}
+
+table input[type="text"][readonly] {
+    border: 0;
+    background-color: transparent;
+}

@@ -1,0 +1,52 @@
+﻿@model IEnumerable<UI.Web.Models.Comment>
+@{
+    ViewBag.Title = "Your posts";
+}
+
+
+
+<div style="text-align:center">
+    <h2>Welcome @Session["email"] !</h2>
+
+    @*@using (Html.BeginForm("Wall", "Comments", FormMethod.Post, new { id = "commentForm" }))*@
+    @using (Ajax.BeginForm("Wall", "Comments",
+        new AjaxOptions
+    {
+        InsertionMode = InsertionMode.Replace,
+        HttpMethod = "POST",
+       
+    }))
+    {
+        <table style="margin: 0 auto;">
+
+            <tr>
+                <td>@Html.TextArea("commentText", new { @class = "form-control", rows = "3", style = "width: 200em;", placeholder = "Insert your comment here..." })</td>
+            </tr>
+            <tr>
+                <td><input type="submit" value="Shout!" class="btn btn-success" /></td>
+            </tr>
+        </table>
+
+    }
+</div>
+<hr />
+<table class="table">
+        <tr>
+            <th style="text-align: center">
+                Earlier Posts
+            </th>
+
+        </tr>
+        @foreach (var item in Model)
+            {
+                <tr>
+
+
+                    <td>
+
+                        <blockquote><p>"@Html.DisplayFor(modelItem => item.comment)"</p><p><small><a href="mailto:@Html.DisplayFor(modelItem => item.email)">@Html.DisplayFor(modelItem => item.email)</a>, Posted: @Html.DisplayFor(modelItem => item.Since) </small></p></blockquote>
+                    </td>
+
+                </tr>
+            }
+    </table>

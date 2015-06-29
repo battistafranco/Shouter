@@ -1,0 +1,55 @@
+﻿.panel-heading {
+    font-family: 'Lato-Regular';
+    font-size: large;
+}
+
+h2.page-header {
+    font-family: 'Lato-Regular';
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.navbar-header a {
+    font-family: 'Lato-Regular';
+    font-size: x-large;
+}
+
+table, label {
+    font-family: 'Lato-Regular';
+    font-size: medium;
+}
+
+.sidebar-nav {
+    font-family: 'Lato-Bold';
+    font-size: larger;
+}
+
+.nav-second-level a, .navbar-top-links, button {
+    font-family: 'Lato-Regular';
+    font-size: small;
+}
+
+strong, th, th a {
+    font-family: 'Lato-Bold';
+}
+
+    th a, th a:active, th a:link, th a:visited, th a:hover {
+        color: black;
+    }
+
+label {
+    font-weight: normal;
+}
+
+i[class~='fa'] {
+    margin-left: 3px;
+}
+
+.sin-resultados {
+    text-align: center;
+    margin-top: 0;
+}
+
+.text-danger {
+    font-weight: bold;
+}
